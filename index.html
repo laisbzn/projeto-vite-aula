@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Projeto</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>Bem-vindo ao projeto!</h1>
+    
+    <div class="container">
+      <!-- Seção de Nomes -->
+      <div class="nome-section">
+        <div class="section-content">
+          <div class="inputs-container">
+            <input id="nome" type="text" placeholder="Digite o nome">
+            <input id="sobrenome" type="text" placeholder="Digite o sobrenome">
+            <button id="btn-concatenar">Concatenar</button>
+          </div>
+          <div class="resultado">
+            <p>Resultado:</p>
+            <p id="resultado-nome">-</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção de Divisão -->
+      <div class="divisao-section">
+        <div class="section-content">
+          <div class="inputs-container">
+            <input id="numero1" type="number" placeholder="Digite um número">
+            <input id="numero2" type="number" placeholder="Digite outro número">
+            <button id="btn-dividir">Dividir</button>
+          </div>
+          <div class="resultado">
+            <p>Resultado:</p>
+            <p id="resultado-divisao">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>

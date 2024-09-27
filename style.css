@@ -1,0 +1,70 @@
+body {
+    background-color: #8FBCB3;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .nome-section,
+  .divisao-section {
+    border: 1px solid #000;
+    padding: 20px;
+    background-color:#DFE6ED;
+  }
+  
+  .section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inputs-container input,
+  .inputs-container button {
+    width: 200px;
+    padding: 8px;
+  }
+
+  #btn-concatenar, 
+  #btn-dividir{
+    background-color: #788895;
+  }
+  
+  .resultado {
+    border: 1px solid #000;
+    padding: 33px;
+    background-color: #C3CFD9;
+    min-width: 150px;
+  }
+  
+  .resultado p {
+    margin: 5px 0;
+  }
+  
+  @media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .nome-section,
+    .divisao-section {
+      width: 48%;
+    }
+  }
+  
